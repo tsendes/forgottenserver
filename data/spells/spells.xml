@@ -210,6 +210,10 @@
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
+	<instant group="attack" spellid="56" name="Wrath of Ravendawn" words="exevo gran mas raven" level="10" mana="7" premium="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/wrath_of_ravendawn.lua">
+		<vocation name="Druid" />
+		<vocation name="Elder Druid" />
+	</instant>
 
 	<!-- Healing Spells -->
 	<instant group="healing" spellid="175" name="Bruise Bane" words="exura infir ico" level="1" mana="10" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/bruise_bane.lua">
